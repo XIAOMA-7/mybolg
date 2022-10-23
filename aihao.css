@@ -1,23 +1,23 @@
 html,body {
     position: relative;
-    height: 500px;
-    width: 1000px;
+    height: 1000px;
+    width: 100%;
     margin: 0 auto;
-    background-color: #000;
+   background-image: url(主页背景.jpg);
   }
 
-  body {
+  /* body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
     margin: 0;
     padding: 0;
-  }
+  } */
 
   .swiper {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 70%;
   }
 
   .swiper-slide {
@@ -48,8 +48,8 @@ html,body {
   }
   .movie{
     width: 100%;
-    height: 1000px;
-      background-color: #eee;}
+    height: 1050px;
+      background-image: url(./tupian/dd01.png);}
   .rmov{
         width: 100%;
         height: 50px;
@@ -58,13 +58,13 @@ html,body {
         font-family: cursive;
         font-size: 30px;
         background-color: #30343F;
-        color: #eee;
+        background-image:url(./tupian/dd012.png) ;
       }
   #mov1{
     width: 40%;
     height: 180px;
     background-color: #1D1E22;
-    margin-left: 50px;
+    margin-left: 120px;
     float: left;
     border: 1px solid black;
     border-radius: 5%;
@@ -73,10 +73,10 @@ html,body {
     background-repeat: no-repeat;
   }
   .mov11{
-    width: 260px;
+    width: 380px;
     height: 180px;
     float: right;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 50px 5px 10px;
     text-align: center;
     color: #F2F2F5;
   }
@@ -104,7 +104,7 @@ html,body {
     width: 40%;
     height: 180px;
     background-color: #1D1E22;
-    margin-left: 50px;
+    margin-left: 120px;
     float: left;
     border: 1px solid black;
     border-radius: 5%;
@@ -129,7 +129,7 @@ html,body {
       width: 40%;
     height: 180px;
     background-color: #1D1E22;
-    margin-left: 50px;
+    margin-left: 120px;
     float: left;
     border: 1px solid black;
     border-radius: 5%;
@@ -159,38 +159,49 @@ html,body {
       text-align: center;
       font-size: 30px;
       font-family: cursive;
-      background-color: #30343F;
-      color: #eee;
+      background-image:url(./tupian/dd012.png) ;
+      
     }
     .photo{
       width: 100%;
       float: left;
-      height: 200px;
+      height: 300px;
     }
     #photo1{
-      width: 30%;
-      height: 220px;
+      width: 341px;
+      height: 270px;
       background-color:yellow;
       margin-left: 80px;
       margin-right: 80px;
       float: left;
       background-image: url(./tupian/tupian1.png);
-      background-size: 300px 220px;
+      background-size: 341px 270px;
     }
     #photo2{
-      width: 30%;
-      height: 220px;
+      width: 341px;
+      height: 270px;
       background-color:yellow;
       margin-left: 80px;
       margin-right: 80px;
       float: left;
       background-image: url(./tupian/tupian2.png);
-      background-size: 300px 220px;
+      background-size: 341px 270px;
+      background-repeat: no-repeat;
+    }
+    #photo3{
+        width: 341px;
+      height: 270px;
+      background-color:yellow;
+      margin-left: 80px;
+      margin-right: 80px;
+      float: left;
+      background-image: url(photo3.png);
+      background-size: 341px 270px;
       background-repeat: no-repeat;
     }
     .houtu{
       width: 100%;
-      height:80px;
+      height: 80px;
       text-align: center;
       float: left;
       font-size: 30px;
@@ -206,14 +217,46 @@ html,body {
     }
     
     
-  
+    .nav_1{
+        width:100%;
+        height: 60px;
+       
+         /* position: fixed; 
+         top: 0;
+         left: 0; */
+       
+    }
+    .nav_1_1{
+        width: 80px;
+        height: 40px;
+        margin:10px 10px 10px 40px;
+        font-size: 20px;
+        line-height: 40px;
+        float: left;
+        color: white;
+    }
+    .nav_1_2 a{
+        text-decoration: none;
+        width: 80px;
+        height: 60px;
+        float: right;
+        margin:0 10px ;
+        line-height: 60px;
+        text-align: center;
+        color: white;
+        
+    }
+    .nav_1_2 a:hover{
+       background-color: aqua;
+       color: red;
+    }
   
       
-      .n1{
+      /* .n1{
         width: 1000px;
         height: 50px;
         line-height: 50px;
-        background-color: wheat;
+        
         font-size: 15px;
       }
       .n1 a{
@@ -227,7 +270,7 @@ html,body {
       .n1 a:hover{
         background-color: aqua;
        color: red;
-      }
+      } */
       .mingzi{
         float: left;
         font-size: 20px;
