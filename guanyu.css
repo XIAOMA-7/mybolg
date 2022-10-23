@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    font-size: 100px;
+}
+.nav{
+    width: 100%;
+    height: 750px;
+    background-image: url(主页背景.jpg);
+    background-size: 100% 750px;
+}
+.nav_1{
+    width:100%;
+    height: 60px;
+   
+     /* position: fixed; 
+     top: 0;
+     left: 0; */
+   
+}
+.nav_1_1{
+    width: 80px;
+    height: 40px;
+    margin:10px 10px 10px 40px;
+    font-size: 20px;
+    line-height: 40px;
+    float: left;
+    color: white;
+}
+.nav_1_2 a{
+    text-decoration: none;
+    width: 80px;
+    height: 60px;
+    float: right;
+    margin:0 10px ;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    
+}
+.nav_1_2 a:hover{
+   background-color: aqua;
+   color: red;
+}
+#shi
+{
+    font-size:25px;
+    color:wheat;
+    height:25px;
+    font-weight:bold;
+    width: 500px;
+    text-align: center;
+    font-family: cursive;
+}
+.container1{
+    width: 100%;
+    height: 400px;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    /* align-items: stretch; */
+    justify-content: space-around;
+    width:100%;
+    height: 400px;
+    background-image: url(./tupian/dd012.png);
+}
+
+.flex-item1{
+    width: 900px;
+    font-size: 20px;
+    justify-content:center;
+    background-color: #30343F;
+    color:#8f9bad;
+}
+.shouchang{
+    width: 100%;
+    height: 60px;
+    background-image: url(./tupian/dd01.png);
+}
+.container2{
+    width: 100%;
+    height: 300px;
+    background-image: url(./tupian/dd012.png);
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+    height: 300px;
+    border: 1px dashed;
+}
+.flex-item2{
+    width: 300px;
+    border: 1px solid;
+}
+.container3{
+    width: 100%;
+    height: 100px;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+    height: 100px;
+    /* border: 1px dashed; */
+}
+.flex-item3{
+    width: 300px;
+    /* border: 1px solid; */
+}
+.jineng{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-image: url(./tupian/dd01.png);
+    font-size: 20px;
+}
+.jiqiao{
+    width: 100%;
+    height: 500px;
+    background-image: url(./tupian/dd012.png);
+    background-size: 100%;
+}
+#box1 {
+    width: 600px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 0px auto;
+    animation-duration: 2s;
+    animation-delay: 1s; 
+   }
+.skills{
+    height: 40px;
+    line-height: 40px;
+    color: gray;
+    border-radius: 20px;
+   
+    background-color: #4CAF50;
+}
+.last{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    background-image: url(./tupian/dd01.png);
+}
+.last1{
+    width: 100%;
+    height: 200px;
+}
+.email{
+    width:200px ;
+    float: right;
+    text-align: center;
+}
+.banquan{
+    width: 100%;
+    height: 50px;
+    background-image: url(./tupian/dd01.png);
+    font-family: cursive;
+    text-align: center;
+    line-height: 50px;
+}
